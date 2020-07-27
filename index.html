@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>To do App</title>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<style>
+body{text-align: center; background-image:linear-gradient(to left, #63696C, #EC466B);}
+.input{margin-top: 100px;}
+h1{font-family: 'Special Elite', cursive; font-size: 40px;}
+.btn{background-color: #BBB8B7;}
+.Btn1{background-color:#BBB8B7;}
+.Btn2{background-color:#BBB8B7;}
+</style>
+<body>
+<div>
+<h1>TO DO LIST APP</h1>
+</div>
+<div class="input">
+<input placeholder="Enter Todo" type="text" id="todo-item">
+<button class="Btn1" onclick="addTodo()">ADD ITEM</button>
+<button class="Btn2" onclick="deleteAll()">DELETE ALL</button>
+</div>
+<div>
+<ul id="list">
+</ul>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
